@@ -1,0 +1,85 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    color-scheme: dark;
+    font-family: "Raleway",sans-serif;
+    color: #fff;
+    opacity: 87%;
+}
+
+html {
+    background-color: #121212;
+}
+
+body {
+    background-color: rgba(13, 17, 23, 0.382);
+    margin: 12px;
+    justify-content: center;
+}
+
+main {
+    padding: 12px;
+    margin: 12px;
+    justify-content: center;
+}
+
+body header {
+    display: flex;
+    margin: 16px;
+    padding: 16px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+body header h1 {
+    margin: 0;
+}
+
+.filler-image {
+    display: block;
+    margin: auto;
+    image-rendering: auto;
+    image-orientation: from-image;
+    max-width: 50%;
+    width: fit-content;
+    max-height: 50%;
+    object-fit: cover;
+    text-align: center;
+    inset: 0;
+}
+
+.footer {
+    position: flex;
+    bottom: 0;
+    padding-top: 16px;
+    width: 100%;
+}
+
+.social-media ul {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media ul li {    
+    list-style: none;
+    padding: 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.twitter-icon {
+    fill: #fff;
+    height: 2rem;
+}
+
+.github-icon {
+    fill: #fff;
+    height: 2rem;
+}
